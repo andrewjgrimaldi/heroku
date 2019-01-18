@@ -41,13 +41,7 @@ import datetime
 #from config import consumer_key, consumer_secret, access_token, access_token_secret
 #weather_api_key = "25bc90a1196e6f153eece0bc0b0fc9eb"
 
-## REMOVE THESE COMMENTS before deploying to Heroku!
-consumer_key = os.environ.get("consumer_key")
-consumer_secret = os.environ.get("consumer_secret")
-access_token = os.environ.get("access_token")
-access_token_secret = os.environ.get("access_token_secret")
-weather_api_key = os.environ.get("weather_api_key")
-
+# REMOVE THESE COMMENTS before deploying to Heroku!
 
 # In[ ]:
 
